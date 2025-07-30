@@ -1,0 +1,34 @@
+{
+    "todos": [
+        {
+            "id": "1",
+            "todos": "If you're good at something, never do it for free.",
+            "completed": false
+        },
+        {
+            "id": "2",
+            "todos": "Do I really look like a guy with a plan? You know what I am? I'm a dog chasing cars. I wouldn't know what to do with one if I caught it! You know, I just... *do* things.",
+            "completed": false
+        },
+        {
+            "id": "3",
+            "todos": "You either die a hero or you live long enough to see yourself become the villain.",
+            "completed": false
+        },
+        {
+            "id": "4",
+            "todos": "I don't, I don't want to kill you! What would I do without you? Go back to ripping off mob dealers? No, no, NO! No. You... you... complete me.",
+            "completed": false
+        },
+        {
+            "id": "5",
+            "todos": "Sometimes the truth isn't good enough, sometimes people deserve more. Sometimes people deserve to have their faith rewarded...",
+            "completed": false
+        },
+        {
+            "id": "6",
+            "todos": "The night is darkest just before the dawn. And I promise you, the dawn is coming.",
+            "completed": false
+        }
+    ]
+}
