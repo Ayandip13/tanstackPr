@@ -4,7 +4,7 @@ import React from 'react'
 
 function App() {
 
-  const { data, isLoading, error } = useQuery({
+  const { data, isLoading, error, refetch } = useQuery({
     queryKey: ['todos'],
     queryFn: getTodos
   })
@@ -14,7 +14,10 @@ function App() {
 
   return (
     <>
-      <div>{data.map((todo: any) => <p>{todo.title}</p>)}</div>
+      <div>{data.slice(0, 20).map((todo: any) => <p>{todo.title}</p>)}</div>
+      <button onClick={() => refetch()}>
+        Refetch
+      </button>
     </>
   )
 }
